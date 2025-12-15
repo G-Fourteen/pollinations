@@ -59,6 +59,7 @@ declare namespace Cloudflare {
         ENTER_TOKEN: string;
         POLAR_ACCESS_TOKEN: string;
         POLAR_WEBHOOK_SECRET?: string;
+        ADMIN_API_KEY?: string;
         POLLEN_RATE_LIMITER: DurableObjectNamespace /* PollenRateLimiter from pollinations-enter */;
         IMAGE_BUCKET: R2Bucket;
         DB: D1Database;
